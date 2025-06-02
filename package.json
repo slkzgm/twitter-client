@@ -38,7 +38,7 @@
     "vitest": "^3.1.4"
   },
   "scripts": {
-    "build": "npm run clean && tsup",
+    "build": "tsup",
     "prepare": "npm run build",
     "dev": "tsup --watch",
     "test": "vitest run",
